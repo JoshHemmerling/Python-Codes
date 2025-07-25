@@ -1,0 +1,92 @@
+# Snowfall Rate Estimator from Pivotal Weather Sounding Text
+import re
+
+
+def parse_sounding(text):
+    """
+    Parses Pivotal Weather text sounding and extracts key DGZ parameters.
+    Returns dict with:
+        - max omega in DGZ
+        - average RH in DGZ
+        - DGZ pressure top/bottom
+        - temps in DGZ
+    """
+    lines = text.strip().splitlines()
+    data_lines = [line for line in lines if re.match(r"^\s*\d+\.\d+", line)]
+
+    sounding_data = []
+    for line in data_lines:
+        parts = re.split(r"\s+", line.strip())
+        if len(parts) >= 12:
+            pressure = float(parts[0])
+            temp = float(parts[2])
+            dewpt = float(parts[3])
+            rh = float(parts[4])
+            omega = float(parts[11])
+            sounding_data.append({
+                'pressure': pressure,
+                'temp': temp,
+                'rh': rh,
+                'omega': omega
+            })
+
+    # Extract DGZ (Temp between -12 and -18 C)
+    dgz_layer = [row for row in sounding_data if -18 <= row['temp'] <= -12]
+    if len(dgz_layer) < 2:
+        raise ValueError("Not enough data in DGZ range (-12 to -18°C)")
+
+    dgz_top = min(row['pressure'] for row in dgz_layer)
+    dgz_bottom = max(row['pressure'] for row in dgz_layer)
+    dgz_depth_km = abs(dgz_bottom - dgz_top) * 0.1
+
+    max_omega = min(row['omega'] for row in dgz_layer)
+    avg_rh = sum(row['rh'] for row in dgz_layer) / len(dgz_layer)
+    temp_profile = [row['temp'] for row in dgz_layer]
+
+    return {
+        'omega': max_omega,
+        'rh': avg_rh,
+        'dgz_top': dgz_top,
+        'dgz_bottom': dgz_bottom,
+        'dgz_depth_km': dgz_depth_km,
+        'temp_profile': temp_profile
+    }
+
+
+def estimate_snowfall_rate(omega, rh, dgz_depth_km, cape, temp_profile):
+    lift_factor = max(0, -omega) * 100
+    rh_factor = min(1.0, rh / 100)
+    depth_factor = min(1.0, dgz_depth_km / 1.5)
+    convective_boost = 1 + (cape / 1000) if cape > 0 else 1
+    
+    ideal_dgz_temps = [-12, -18]
+    temp_efficiency = sum(1 for t in temp_profile if ideal_dgz_temps[1] <= t <= ideal_dgz_temps[0]) / len(temp_profile)
+
+    snowfall_rate = 0.05 * lift_factor * rh_factor * depth_factor * temp_efficiency * convective_boost
+    return round(snowfall_rate, 2)
+
+
+# Example usage:
+if __name__ == "__main__":
+    # Paste your Pivotal Weather sounding text here:
+    sounding_text = """
+ PRES   HGHT   TEMP  DWPT  RELH   MIXR   DRCT   SKNT   THTA  THTE  THTV   OMEG
+----------------------------------------------------------------------------- 
+ 700.0  3010  -11.3 -12.9    87   2.69    90     25  302.1  317.2  303.1  -0.2
+ 650.0  3470  -14.2 -15.6    88   2.14   100     28  303.5  316.2  304.3  -0.3
+ 600.0  3960  -17.8 -19.2    89   1.68   110     30  304.7  315.0  305.4  -0.4
+ 550.0  4480  -21.4 -23.0    87   1.29   120     33  305.9  314.5  306.4  -0.2
+    """
+
+    cape = 100  # CAPE in J/kg (manually input from Pivotal)
+
+    parsed = parse_sounding(sounding_text)
+    snowfall_rate = estimate_snowfall_rate(
+        parsed['omega'], parsed['rh'], parsed['dgz_depth_km'], cape, parsed['temp_profile']
+    )
+
+    print("--- Snowfall Rate Estimation ---")
+    print(f"Max Omega in DGZ: {parsed['omega']} Pa/s")
+    print(f"Avg RH in DGZ: {parsed['rh']:.1f}%")
+    print(f"DGZ Depth: {parsed['dgz_depth_km']:.2f} km")
+    print(f"Estimated Snowfall Rate: {snowfall_rate} in/hr")

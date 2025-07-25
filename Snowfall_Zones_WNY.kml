@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="2">
+            <LineStyle id="4">
+                <color>80FF0000</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="3">
+                <color>80FF0000</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="13">
+            <LineStyle id="15">
+                <color>80FF7F00</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="14">
+                <color>80FF7F00</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="56">
+            <LineStyle id="58">
+                <color>80FFFF00</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="57">
+                <color>80FFFF00</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="91">
+            <LineStyle id="93">
+                <color>8000FF00</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="92">
+                <color>8000FF00</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="102">
+            <LineStyle id="104">
+                <color>8000FFFF</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="103">
+                <color>8000FFFF</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="121">
+            <LineStyle id="123">
+                <color>800000FF</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="122">
+                <color>800000FF</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="152">
+            <LineStyle id="154">
+                <color>80FF00FF</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="153">
+                <color>80FF00FF</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Placemark id="6">
+            <name>Niagara Falls: 0-1 inches</name>
+            <styleUrl>#2</styleUrl>
+            <Polygon id="5">
+                <outerBoundaryIs>
+                    <LinearRing id="7">
+                        <coordinates>-79.1377,42.9962,0.0 -78.9377,42.9962,0.0 -78.9377,43.196200000000005,0.0 -79.1377,43.196200000000005,0.0 -79.1377,42.9962,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="10">
+            <name>Wilson: 0-1 inches</name>
+            <styleUrl>#2</styleUrl>
+            <Polygon id="9">
+                <outerBoundaryIs>
+                    <LinearRing id="11">
+                        <coordinates>-78.9289,43.2114,0.0 -78.72890000000001,43.2114,0.0 -78.72890000000001,43.4114,0.0 -78.9289,43.4114,0.0 -78.9289,43.2114,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="17">
+            <name>Buffalo: 1-3 inches</name>
+            <styleUrl>#13</styleUrl>
+            <Polygon id="16">
+                <outerBoundaryIs>
+                    <LinearRing id="18">
+                        <coordinates>-78.9784,42.7864,0.0 -78.7784,42.7864,0.0 -78.7784,42.9864,0.0 -78.9784,42.9864,0.0 -78.9784,42.7864,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="21">
+            <name>Williamsville: 1-3 inches</name>
+            <styleUrl>#13</styleUrl>
+            <Polygon id="20">
+                <outerBoundaryIs>
+                    <LinearRing id="22">
+                        <coordinates>-78.835,42.8634,0.0 -78.635,42.8634,0.0 -78.635,43.0634,0.0 -78.835,43.0634,0.0 -78.835,42.8634,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="25">
+            <name>Tonawanda: 1-3 inches</name>
+            <styleUrl>#13</styleUrl>
+            <Polygon id="24">
+                <outerBoundaryIs>
+                    <LinearRing id="26">
+                        <coordinates>-78.9803,42.9203,0.0 -78.78030000000001,42.9203,0.0 -78.78030000000001,43.1203,0.0 -78.9803,43.1203,0.0 -78.9803,42.9203,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="29">
+            <name>Kenmore: 1-3 inches</name>
+            <styleUrl>#13</styleUrl>
+            <Polygon id="28">
+                <outerBoundaryIs>
+                    <LinearRing id="30">
+                        <coordinates>-78.9717,42.8656,0.0 -78.77170000000001,42.8656,0.0 -78.77170000000001,43.0656,0.0 -78.9717,43.0656,0.0 -78.9717,42.8656,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="33">
+            <name>Grand Island: 1-3 inches</name>
+            <styleUrl>#13</styleUrl>
+            <Polygon id="32">
+                <outerBoundaryIs>
+                    <LinearRing id="34">
+                        <coordinates>-79.0612,42.9205,0.0 -78.86120000000001,42.9205,0.0 -78.86120000000001,43.1205,0.0 -79.0612,43.1205,0.0 -79.0612,42.9205,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="37">
+            <name>Niagara Falls: 1-3 inches</name>
+            <styleUrl>#13</styleUrl>
+            <Polygon id="36">
+                <outerBoundaryIs>
+                    <LinearRing id="38">
+                        <coordinates>-79.1377,42.9962,0.0 -78.9377,42.9962,0.0 -78.9377,43.196200000000005,0.0 -79.1377,43.196200000000005,0.0 -79.1377,42.9962,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="41">
+            <name>North Tonawanda: 1-3 inches</name>
+            <styleUrl>#13</styleUrl>
+            <Polygon id="40">
+                <outerBoundaryIs>
+                    <LinearRing id="42">
+                        <coordinates>-78.96419999999999,42.9387,0.0 -78.7642,42.9387,0.0 -78.7642,43.1387,0.0 -78.96419999999999,43.1387,0.0 -78.96419999999999,42.9387,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="45">
+            <name>Lewiston: 1-3 inches</name>
+            <styleUrl>#13</styleUrl>
+            <Polygon id="44">
+                <outerBoundaryIs>
+                    <LinearRing id="46">
+                        <coordinates>-79.1428,43.0725,0.0 -78.9428,43.0725,0.0 -78.9428,43.2725,0.0 -79.1428,43.2725,0.0 -79.1428,43.0725,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="49">
+            <name>Newfane: 1-3 inches</name>
+            <styleUrl>#13</styleUrl>
+            <Polygon id="48">
+                <outerBoundaryIs>
+                    <LinearRing id="50">
+                        <coordinates>-78.8086,43.1853,0.0 -78.60860000000001,43.1853,0.0 -78.60860000000001,43.3853,0.0 -78.8086,43.3853,0.0 -78.8086,43.1853,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="53">
+            <name>Wilson: 1-3 inches</name>
+            <styleUrl>#13</styleUrl>
+            <Polygon id="52">
+                <outerBoundaryIs>
+                    <LinearRing id="54">
+                        <coordinates>-78.9289,43.2114,0.0 -78.72890000000001,43.2114,0.0 -78.72890000000001,43.4114,0.0 -78.9289,43.4114,0.0 -78.9289,43.2114,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="60">
+            <name>Hamburg: 4-8 inches</name>
+            <styleUrl>#56</styleUrl>
+            <Polygon id="59">
+                <outerBoundaryIs>
+                    <LinearRing id="61">
+                        <coordinates>-78.92949999999999,42.6156,0.0 -78.7295,42.6156,0.0 -78.7295,42.8156,0.0 -78.92949999999999,42.8156,0.0 -78.92949999999999,42.6156,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="64">
+            <name>East Aurora: 4-8 inches</name>
+            <styleUrl>#56</styleUrl>
+            <Polygon id="63">
+                <outerBoundaryIs>
+                    <LinearRing id="65">
+                        <coordinates>-78.7136,42.667,0.0 -78.51360000000001,42.667,0.0 -78.51360000000001,42.867000000000004,0.0 -78.7136,42.867000000000004,0.0 -78.7136,42.667,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="68">
+            <name>Springville: 4-8 inches</name>
+            <styleUrl>#56</styleUrl>
+            <Polygon id="67">
+                <outerBoundaryIs>
+                    <LinearRing id="69">
+                        <coordinates>-78.76419999999999,42.4084,0.0 -78.5642,42.4084,0.0 -78.5642,42.6084,0.0 -78.76419999999999,42.6084,0.0 -78.76419999999999,42.4084,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="72">
+            <name>Cheektowaga: 4-8 inches</name>
+            <styleUrl>#56</styleUrl>
+            <Polygon id="71">
+                <outerBoundaryIs>
+                    <LinearRing id="73">
+                        <coordinates>-78.8446,42.8025,0.0 -78.64460000000001,42.8025,0.0 -78.64460000000001,43.002500000000005,0.0 -78.8446,43.002500000000005,0.0 -78.8446,42.8025,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="76">
+            <name>Lancaster: 4-8 inches</name>
+            <styleUrl>#56</styleUrl>
+            <Polygon id="75">
+                <outerBoundaryIs>
+                    <LinearRing id="77">
+                        <coordinates>-78.77029999999999,42.800599999999996,0.0 -78.5703,42.800599999999996,0.0 -78.5703,43.0006,0.0 -78.77029999999999,43.0006,0.0 -78.77029999999999,42.800599999999996,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="80">
+            <name>Amherst: 4-8 inches</name>
+            <styleUrl>#56</styleUrl>
+            <Polygon id="79">
+                <outerBoundaryIs>
+                    <LinearRing id="81">
+                        <coordinates>-78.8998,42.8784,0.0 -78.69980000000001,42.8784,0.0 -78.69980000000001,43.0784,0.0 -78.8998,43.0784,0.0 -78.8998,42.8784,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="84">
+            <name>Clarence: 4-8 inches</name>
+            <styleUrl>#56</styleUrl>
+            <Polygon id="83">
+                <outerBoundaryIs>
+                    <LinearRing id="85">
+                        <coordinates>-78.67779999999999,42.8776,0.0 -78.4778,42.8776,0.0 -78.4778,43.077600000000004,0.0 -78.67779999999999,43.077600000000004,0.0 -78.67779999999999,42.8776,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="88">
+            <name>Lockport: 4-8 inches</name>
+            <styleUrl>#56</styleUrl>
+            <Polygon id="87">
+                <outerBoundaryIs>
+                    <LinearRing id="89">
+                        <coordinates>-78.79029999999999,43.0706,0.0 -78.5903,43.0706,0.0 -78.5903,43.2706,0.0 -78.79029999999999,43.2706,0.0 -78.79029999999999,43.0706,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="95">
+            <name>Westfield: 8-12 inches</name>
+            <styleUrl>#91</styleUrl>
+            <Polygon id="94">
+                <outerBoundaryIs>
+                    <LinearRing id="96">
+                        <coordinates>-79.6784,42.2223,0.0 -79.47840000000001,42.2223,0.0 -79.47840000000001,42.4223,0.0 -79.6784,42.4223,0.0 -79.6784,42.2223,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="99">
+            <name>Lakewood: 8-12 inches</name>
+            <styleUrl>#91</styleUrl>
+            <Polygon id="98">
+                <outerBoundaryIs>
+                    <LinearRing id="100">
+                        <coordinates>-79.44449999999999,41.9987,0.0 -79.2445,41.9987,0.0 -79.2445,42.1987,0.0 -79.44449999999999,42.1987,0.0 -79.44449999999999,41.9987,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="106">
+            <name>Jamestown: 12-18 inches</name>
+            <styleUrl>#102</styleUrl>
+            <Polygon id="105">
+                <outerBoundaryIs>
+                    <LinearRing id="107">
+                        <coordinates>-79.33529999999999,41.997,0.0 -79.1353,41.997,0.0 -79.1353,42.197,0.0 -79.33529999999999,42.197,0.0 -79.33529999999999,41.997,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="110">
+            <name>Dunkirk: 12-18 inches</name>
+            <styleUrl>#102</styleUrl>
+            <Polygon id="109">
+                <outerBoundaryIs>
+                    <LinearRing id="111">
+                        <coordinates>-79.43329999999999,42.3795,0.0 -79.2333,42.3795,0.0 -79.2333,42.5795,0.0 -79.43329999999999,42.5795,0.0 -79.43329999999999,42.3795,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="114">
+            <name>Fredonia: 12-18 inches</name>
+            <styleUrl>#102</styleUrl>
+            <Polygon id="113">
+                <outerBoundaryIs>
+                    <LinearRing id="115">
+                        <coordinates>-79.4314,42.3401,0.0 -79.23140000000001,42.3401,0.0 -79.23140000000001,42.5401,0.0 -79.4314,42.5401,0.0 -79.4314,42.3401,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="118">
+            <name>Wellsville: 12-18 inches</name>
+            <styleUrl>#102</styleUrl>
+            <Polygon id="117">
+                <outerBoundaryIs>
+                    <LinearRing id="119">
+                        <coordinates>-78.04719999999999,42.0223,0.0 -77.8472,42.0223,0.0 -77.8472,42.222300000000004,0.0 -78.04719999999999,42.222300000000004,0.0 -78.04719999999999,42.0223,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="125">
+            <name>Jamestown: 18-24 inches</name>
+            <styleUrl>#121</styleUrl>
+            <Polygon id="124">
+                <outerBoundaryIs>
+                    <LinearRing id="126">
+                        <coordinates>-79.33529999999999,41.997,0.0 -79.1353,41.997,0.0 -79.1353,42.197,0.0 -79.33529999999999,42.197,0.0 -79.33529999999999,41.997,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="129">
+            <name>Alfred: 18-24 inches</name>
+            <styleUrl>#121</styleUrl>
+            <Polygon id="128">
+                <outerBoundaryIs>
+                    <LinearRing id="130">
+                        <coordinates>-77.8894,42.1534,0.0 -77.6894,42.1534,0.0 -77.6894,42.3534,0.0 -77.8894,42.3534,0.0 -77.8894,42.1534,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="133">
+            <name>Belmont: 18-24 inches</name>
+            <styleUrl>#121</styleUrl>
+            <Polygon id="132">
+                <outerBoundaryIs>
+                    <LinearRing id="134">
+                        <coordinates>-78.1347,42.122299999999996,0.0 -77.9347,42.122299999999996,0.0 -77.9347,42.3223,0.0 -78.1347,42.3223,0.0 -78.1347,42.122299999999996,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="137">
+            <name>Fillmore: 18-24 inches</name>
+            <styleUrl>#121</styleUrl>
+            <Polygon id="136">
+                <outerBoundaryIs>
+                    <LinearRing id="138">
+                        <coordinates>-78.2178,42.3636,0.0 -78.01780000000001,42.3636,0.0 -78.01780000000001,42.5636,0.0 -78.2178,42.5636,0.0 -78.2178,42.3636,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="141">
+            <name>Bolivar: 18-24 inches</name>
+            <styleUrl>#121</styleUrl>
+            <Polygon id="140">
+                <outerBoundaryIs>
+                    <LinearRing id="142">
+                        <coordinates>-78.26889999999999,41.9678,0.0 -78.0689,41.9678,0.0 -78.0689,42.1678,0.0 -78.26889999999999,42.1678,0.0 -78.26889999999999,41.9678,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="145">
+            <name>Salamanca: 18-24 inches</name>
+            <styleUrl>#121</styleUrl>
+            <Polygon id="144">
+                <outerBoundaryIs>
+                    <LinearRing id="146">
+                        <coordinates>-78.81559999999999,42.0573,0.0 -78.6156,42.0573,0.0 -78.6156,42.2573,0.0 -78.81559999999999,42.2573,0.0 -78.81559999999999,42.0573,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="149">
+            <name>Little Valley: 18-24 inches</name>
+            <styleUrl>#121</styleUrl>
+            <Polygon id="148">
+                <outerBoundaryIs>
+                    <LinearRing id="150">
+                        <coordinates>-78.8992,42.1492,0.0 -78.6992,42.1492,0.0 -78.6992,42.3492,0.0 -78.8992,42.3492,0.0 -78.8992,42.1492,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="156">
+            <name>Bolivar: 24-30 inches</name>
+            <styleUrl>#152</styleUrl>
+            <Polygon id="155">
+                <outerBoundaryIs>
+                    <LinearRing id="157">
+                        <coordinates>-78.26889999999999,41.9678,0.0 -78.0689,41.9678,0.0 -78.0689,42.1678,0.0 -78.26889999999999,42.1678,0.0 -78.26889999999999,41.9678,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="160">
+            <name>Olean: 24-30 inches</name>
+            <styleUrl>#152</styleUrl>
+            <Polygon id="159">
+                <outerBoundaryIs>
+                    <LinearRing id="161">
+                        <coordinates>-78.52919999999999,41.983599999999996,0.0 -78.3292,41.983599999999996,0.0 -78.3292,42.1836,0.0 -78.52919999999999,42.1836,0.0 -78.52919999999999,41.983599999999996,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="164">
+            <name>Ellicottville: 24-30 inches</name>
+            <styleUrl>#152</styleUrl>
+            <Polygon id="163">
+                <outerBoundaryIs>
+                    <LinearRing id="165">
+                        <coordinates>-78.7692,42.1759,0.0 -78.56920000000001,42.1759,0.0 -78.56920000000001,42.3759,0.0 -78.7692,42.3759,0.0 -78.7692,42.1759,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="168">
+            <name>Gowanda: 24-30 inches</name>
+            <styleUrl>#152</styleUrl>
+            <Polygon id="167">
+                <outerBoundaryIs>
+                    <LinearRing id="169">
+                        <coordinates>-79.03529999999999,42.3636,0.0 -78.8353,42.3636,0.0 -78.8353,42.5636,0.0 -79.03529999999999,42.5636,0.0 -79.03529999999999,42.3636,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="172">
+            <name>Franklinville: 24-30 inches</name>
+            <styleUrl>#152</styleUrl>
+            <Polygon id="171">
+                <outerBoundaryIs>
+                    <LinearRing id="173">
+                        <coordinates>-78.55669999999999,42.2384,0.0 -78.3567,42.2384,0.0 -78.3567,42.4384,0.0 -78.55669999999999,42.4384,0.0 -78.55669999999999,42.2384,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>
